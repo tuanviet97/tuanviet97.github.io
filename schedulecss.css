@@ -1,0 +1,39 @@
+
+p{
+	font-size: 25pt;
+	font-family:cursive;
+	text-align:center; 
+	color: #20bcd5;
+	margin-top: 30px;
+	text-shadow: 2px 1px 1px;
+}
+span {
+	border: 5px dashed #20bcd5;
+	padding: 10px;
+	
+}
+table {
+border-style: solid;
+border-color:Snow4;
+width:70%;
+height:50%;
+margin-left:+15%;
+margin-right:-15%;
+margin-top:5%;
+border-collapse:collapse;
+}
+td{
+	text-align:center;
+	width:12%;
+	height:15%;
+}
+th{
+	width:12%;
+	height:10%;
+	font-size:11pt;
+	background-color:SandyBrown;
+}
+
+
+
+	
