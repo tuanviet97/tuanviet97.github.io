@@ -81,4 +81,28 @@ div.menu{
 .menu ul li:hover .sub-menu{
 	display:block;
 }
+/*------------------------------------------- body------------------------*/
+
+
+div.banner {
+	background-color: #EEEEEE;
+	height:100px;
+}
+div.content {
+	background-color:#FFCC99;
+	width:45%;
+	height:500px;
+	margin-left:180px;
+	float:left;
+}
+div.advertise {
+	background-color:#FFFF99;
+	float:left;
+	width:20%;
+	height:500px;
+	
+}
+
+
+
 
