@@ -23,7 +23,7 @@ span {
 	font-size:4.25em;
 	position:absolute;
 	top:30%;
-	left:37%;
+	left:20%;
 	color:white;
 }
 @font-face{
@@ -36,9 +36,12 @@ span {
 		height:5%;
 		box-shadow: rgba(79,79,79,2) 0px 5px 30px 0px;
 		position:relative;
-
+		font-size:2em;
+		background:-webkit-linear-gradient(left,rgba(244,164,96)35%,rgba(205,133,63),rgba(160,82,45));rgba(160,82,45));
+		color:rgba(105,105,105);
 }
 #menu ul li {
+	margin: 0 100px 0 0 ;
 	display:inline-table;
 
 }
