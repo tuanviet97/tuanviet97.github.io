@@ -20,9 +20,9 @@ body {
 span {
 	font-weight:bold;
 	font-family: 'Raleway', sans-serif;
-	font-size:1.25em;
+	font-size:4em;
 	position:absolute;
-	top:32%;
+	top:30%;
 	left:37%;
 	color:white;
 }
