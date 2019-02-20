@@ -1,0 +1,67 @@
+
+p{
+	font-size: 25pt;
+	font-family:cursive;
+	text-align:center; 
+	color: #20bcd5;
+	margin-top: 30px;
+	text-shadow: 2px 1px 1px;
+	
+}
+span.first {
+	
+	border: 5px dashed #20bcd5;
+	padding: 10px;
+	box-shadow: rgba(0,0,0,1) 0px 5px 30px 0px;
+	
+}
+table {
+border-style: solid;
+border-color:Snow4;
+width:70%;
+height:50%;
+margin-left:+15%;
+margin-right:-15%;
+margin-top:5%;
+border-collapse:collapse;
+}
+td{
+	text-align:center;
+	width:12%;
+	height:15%;
+}
+th{
+	width:12%;
+	height:10%;
+	font-size:11pt;
+	background-color:SandyBrown;
+}
+/* đây là để căn lề 2 text trùng nhau */
+td.eng{
+	position: relative;
+}
+td .eng .div1 {
+	color:blue;
+    text-align: center;
+	margin:0 auto;
+}
+td.eng .div2 {
+	text-align:center;
+	color:white;
+	position: absolute;
+	top:8px;
+	left:38px;
+	display:none;
+}
+/* đây là để căn lề 2 text trùng nhau (end)*/
+
+.eng:hover{
+	background-color:black;
+	
+}
+td.eng:hover .div2{
+	background-color:black;
+	color:white;
+	display:block;
+}
+	
