@@ -117,11 +117,14 @@ ul#submenu li{
 	width:196px;
 }
 #submenu  li a{
-	background:-webkit-linear-gradient(right,#CCCCCC,rgba(238,213,210));
 	display:block;
 	width:196px;
 	text-decoration:none;
 	color:#CC6633;
+}
+li.lisub{
+	
+		background:-webkit-linear-gradient(right,#CCCCCC,rgba(238,213,210));
 }
 
 
