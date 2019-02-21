@@ -18,12 +18,12 @@ body {
 	box-shadow: rgba(79,79,79,2) 0px 5px 30px 0px;
 }
 span {
-	font-weight:bold;
-	font-family: 'Raleway', sans-serif ;
-	font-size:2em;
+	font-weight:lighter;
+	font-family: Courier New ;
+	font-size:3em;
 	position:absolute;
-	top:32%;
-	left:26%;
+	top:29%;
+	left:8%;
 	color:white;
 }
 @font-face{
@@ -40,7 +40,7 @@ span {
 }
 #menu ul {
 	list-style-type:none;
-		background:-webkit-linear-gradient(right,#CCCCCC,#DDDDDD,#FFCCFF,#FFCCCC,#FF9999);
+	background:-webkit-linear-gradient(right,#CCCCCC,#FFCCFF,#FF9999);
 	text-align:center;
 }
 #menu ul li {
@@ -72,3 +72,36 @@ color:#99CCFF;
 			height:100%;
 			background:-webkit-linear-gradient(left,#AAAAAA,#BBBBBB,#CCCCCC,#DDDDDD,#EEEEEE);
 }
+/*-----------------animation-title----------------------- */
+span.invisible{
+	position:absolute;
+	top:505px;
+	left:345px;
+	overflow:hidden;
+	height:50px;
+	float:left;
+
+
+}
+.invisible ul  {
+	display:inline-table;
+	list-style-type:none;
+	animation:6s linear 0s normal none infinite animationtitle;
+}
+.invisible ul li  {
+	display:inline-table;
+	list-style-type:none;
+}
+@-webkit-keyframes animationtitle {
+  0%    {margin-top:0;}
+  13%   {margin-top:0;}
+  26%   {margin-top:-55px;}
+  39%   {margin-top:-55px;}
+  52%   {margin-top:-110px;}
+  64%   {margin-top:-110px;}
+  76%   {margin-top:-55px;}
+  88%   {margin-top:-55px;}
+  100%    {margin-top:0;}
+}
+ 
+
