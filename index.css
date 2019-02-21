@@ -20,10 +20,10 @@ body {
 span {
 	font-weight:bold;
 	font-family: 'Raleway', sans-serif;
-	font-size:4.25em;
+	font-size:3.25em;
 	position:absolute;
 	top:30%;
-	left:20%;
+	left:11.5%;
 	color:white;
 }
 @font-face{
@@ -31,38 +31,38 @@ span {
 	src:url('lobster_1.3.otf');
 }
 /*-----------------menu----------------------- */
-#menu {
-		background-color:white;
-		height:5%;
+#menu { position:relative;
+		top:3px;
 		box-shadow: rgba(79,79,79,2) 0px 5px 30px 0px;
-		position:relative;
 		font-size:2em;
-		background:-webkit-linear-gradient(left,rgba(244,164,96)35%,rgba(205,133,63),rgba(160,82,45));rgba(160,82,45));
-		color:rgba(105,105,105);
-}
-#menu ul li {
-	margin: 0 100px 0 20px ;
-	display:inline-table;
-	
+		color:#FF9966;
+		display:fixed;
 }
 #menu ul {
+	list-style-type:none;
+		background:-webkit-linear-gradient(right,#CCCCCC,#DDDDDD,#FFCCFF,#FFCCCC,#FF9999);
 	text-align:center;
-	width:100%;
-	height:100%;
-	
+}
+#menu ul li {
+	display:inline-table;
+	width:20%;
+	height:4%;
+	line-height: 70px;
+	font-size:30pt;
+	 margin-left: -5px; /*----------------- bỏ khoảng trống ngăn cách giữa các phần tử----------------------- */
 }
 #menu ul li a{
-	text-decoration:none;
-	display:block;
-	color:rgba(105,105,105);
-	
-	line-height:40px;
+
+text-decoration:none;
+
+color:#CC6633;
+width:100%;
+height:100%;
+display:block;
 }
 #menu ul li a:hover{
-	text-decoration:none;
-	display:block;
-	color:rgba(139,121,94);
-	background-color:rgba(255,222,173);
+background:#999999;
+color:#99CCFF;
 
 }
 /*-----------------feature----------------------- */
