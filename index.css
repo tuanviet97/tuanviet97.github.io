@@ -115,7 +115,7 @@ span.invisible{
 ul#submenu li{
 	display:block;
 	width:196px;
-	background:-webkit-linear-gradient(right,#CCCCCC,rgba(238,213,210));
+	background-color:-webkit-linear-gradient(right,#CCCCCC,rgba(238,213,210));
 	background:linear-gradient(right,#CCCCCC,rgba(238,213,210));
 }
 #submenu  li a{
