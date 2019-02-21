@@ -112,12 +112,13 @@ span.invisible{
 #menu ul li:hover #submenu {
 	display:block;
 }
-#submenu  li{
-	background:blue;
+ul#submenu li{
+	background:-webkit-linear-gradient(right,#CCCCCC,rgba(238,213,210));
 	display:block;
 	width:196px;
 }
 #submenu  li a{
+	background:-webkit-linear-gradient(right,#CCCCCC,rgba(238,213,210));
 	display:block;
 	width:196px;
 	text-decoration:none;
