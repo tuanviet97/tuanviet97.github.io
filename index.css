@@ -113,7 +113,7 @@ span.invisible{
 	display:block;
 }
 #submenu  li{
-	background:-webkit-linear-gradient(right,#CCCCCC,rgba(238,213,210));
+	background:blue;
 	display:block;
 	width:196px;
 }
