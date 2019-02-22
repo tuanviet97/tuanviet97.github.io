@@ -47,7 +47,7 @@ span {
 }
 #menu  ul  > li {
 	display:inline-table;
-	width:20%;
+	width:200px;
 	height:100%;
 	font-size:30pt;
 	 margin-left: -5px; /*----------------- bỏ khoảng trống ngăn cách giữa các phần tử----------------------- */
@@ -106,15 +106,22 @@ span.invisible{
 }
  
 
+/*--------------------submenu-----------------------------*/
 
 
 
-
-
-
-
-
-
+ul.submenu {
+	display:flex;
+	flex-direction:column ;
+	width:100%;
+}
+ul.submenu li {
+	width:200px;
+	display:flex;
+	background:-webkit-linear-gradient(right,#CCCCCC,#FFCCFF,#FF9999);
+	color:black;
+	
+}
 
 
 
