@@ -107,13 +107,13 @@ ul.submenu {
 	display:none;
 	position:relative;
 	width:100%;
-	margin-left:5px;
+	margin-left:2px;
 	
 }
 ul.submenu li {
 	width:200px;
 	display:flex;
-	background:blue;
+	background:-webkit-linear-gradient(right,#DDDDDD,#FFCCFF);
 	color:#CC6633;
 	
 }
