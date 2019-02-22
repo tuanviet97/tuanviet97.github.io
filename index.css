@@ -161,5 +161,10 @@ div.wp{
 }
 
 /*-----------------loading----------------------- */
+div.loading {
+	background:-webkit-linear-gradient(top,#AAAAAA,#BBBBBB,#CCCCCC,#DDDDDD,#EEEEEE);
+	
+	
+}
 
 
