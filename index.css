@@ -113,7 +113,7 @@ ul.submenu {
 ul.submenu li {
 	width:200px;
 	display:flex;
-	background:-webkit-linear-gradient(right,#DDDDDD,rgba(238,213,210));
+	background:-webkit-linear-gradient(right,#CCCCCC,#FFCCFF,#FF9999);
 	color:#CC6633;
 	
 }
@@ -132,6 +132,7 @@ ul.submenu li {
 	color:#99CCFF;
 	text-decoration:none;
 }
+
 
 
 
