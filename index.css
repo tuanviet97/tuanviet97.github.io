@@ -113,7 +113,7 @@ ul.submenu {
 ul.submenu li {
 	width:200px;
 	display:flex;
-	background:-webkit-linear-gradient(right,#CCCCCC,#FFCCFF,#FF9999);
+	background:blue;
 	color:#CC6633;
 	
 }
