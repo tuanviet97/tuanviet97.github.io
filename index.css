@@ -31,12 +31,15 @@ span {
 	src:url('lobster_1.3.otf');
 }
 /*-----------------menu----------------------- */
-#menu { position:relative;
+#menu {  	
+		position: -webkit-sticky; /*------ cái này là cho menu chạy theo (relative + fixed )----- */
+		position: sticky;
 		top:3px;
 		box-shadow: rgba(79,79,79,2) 0px 5px 30px 0px;
 		font-size:2em;
 		color:black;
-		display:fixed;
+	
+
 }
 #menu  > ul {
 	list-style-type:none;
