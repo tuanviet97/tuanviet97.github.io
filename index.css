@@ -152,7 +152,7 @@ ul.submenu li {
 }
 @-webkit-keyframes feature{
 	0%  {height:0% }
-	99% {height:0%}
+	95% {height:0%}
 	100%{height:100%}
 	
 }
@@ -233,4 +233,4 @@ div.gm{
   100% {background-color:#99FFFF;opacity:0;margin-top:-9999px;}
   
 }
-/*---------------------------------------- */
+/*----------------------audio------------------ */
