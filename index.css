@@ -158,28 +158,41 @@ ul.submenu li {
 	100%{height:100%;}
 	
 }
-div.wp{
+div.wp1{
 	margin-top:200px;
-	width:90%;
+	width:45%;
 	height:500px;
 	background-color:#FFFFFF;
-	border-radius:20px;
-	box-shadow: rgba(79,79,79,2) 0px 5px 30px 0px;
+	border-radius:10px;
+	box-shadow: rgba(79,79,79,2) 0px 5px 5px 0px;
 	border: 10px solid #FF6A6A;
 	animation:6s linear 0s normal none infinite borderani;
+	border-right:none;
+	font-size:25pt;
+	margin-right:-5px;
+}
+div.wp2{
 
-}
-div.wp h1 a{
-	width:100%;
-	height:100%;
+	margin-top:200px;
+	width:43%;
+	height:500px;
 	background-color:#FFFFFF;
-	text-decoration:none;
-	font-size:80pt;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	color:#CC6633;
+	border-radius:10px;
+	box-shadow: rgba(79,79,79,2) 0px 5px 0px 0px;
+	border: 10px solid #FF6A6A;
+	border-left:none;
+	animation:6s linear 0s normal none infinite borderani;
+	margin-left:-25px;
+	font-size:25pt;
 }
+h1.muoi{
+
+	float:right;
+	color:red;
+	margin-right:15px;
+	padding:15px;
+}
+
 @-webkit-keyframes borderani {
   0%  {border-color:#FF6A6A;}
  30%    {border-color:#FFF68F;}
